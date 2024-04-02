@@ -4,6 +4,11 @@
 #include <stdlib.h>
 
 // TODO: Create a structure for the pair
+struct pair
+{
+    int x;
+    int y;
+};
 
 void fizzbuzz(int n);
 size_t my_strlen(char *s);
